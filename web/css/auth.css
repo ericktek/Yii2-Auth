@@ -1,0 +1,66 @@
+/* Login css */
+
+.btn-color{
+    background-color: #0e1c36;
+    color: #fff;
+    
+  }
+
+  .btn-color:hover {
+    background-color: #0e1c36e0;
+    color: #ffffff98;
+
+  }
+  
+  .profile-image-pic{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+  }
+  
+/*   
+  .bg-color{
+    background-color: rgb(218, 151, 26);
+  } */
+  /* .cardbody-color{
+    background-color: #ebf2fa;
+  } */
+  
+  a{
+    text-decoration: none;
+  }
+
+  .title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #0e1c36e0;
+  }
+
+  @media (min-width: 576px) {
+    .offset-md-cust {
+      margin-left: 29.5%;
+    }
+  }
+
+  /* @media (min-width: 576px) {
+    .offset-sm-cust2 {
+      margin-left: 25%;
+    }
+  } */
+
+
+::placeholder {
+    color: #999999c7; 
+    font-size: 14px;
+  }
+
+  .underline-hover:hover {
+    text-decoration: underline;
+  }
+
+  .label {
+    color: #1faedaee; /* Placeholder text color */
+    font-size: 14px;
+    padding-bottom: 6px;
+  }
